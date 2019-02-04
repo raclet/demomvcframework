@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Convertisseur de température</title>
+</head>
+<body>
+
+
+Vous pouvez convertir une température exprimée en
+<b>Celsius</b> en une valeur exprimée en
+<b>Fahrenheit</b>.
+
+<hr/>
+
+<form th:object="${temperature}" th:action="@{/convertisseur}" method="post">
+
+    Valeur en Celsius: <input type="text" size="20" th:field="*{celsius}" /> <br />
+
+    <input type="submit" value="Convertir" />
+</form>
+
+<hr/>
+
+</body>
+</html>
