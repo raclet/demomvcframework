@@ -1,11 +1,10 @@
-package m1.dl.demomvc.controller;
+package m1.sdlihm.demomvc.controller;
 
-import m1.dl.demomvc.domain.Temperature;
+import m1.sdlihm.demomvc.domain.Temperature;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
 
 @Controller
 public class TemperatureController {
@@ -22,6 +21,5 @@ public class TemperatureController {
         model.addAttribute("fahrenheit", temperature.getFahrenheit());
         return "convoutput";
     }
-
-
+    
 }

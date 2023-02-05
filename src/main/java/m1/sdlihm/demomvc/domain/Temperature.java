@@ -1,4 +1,4 @@
-package m1.dl.demomvc.domain;
+package m1.sdlihm.demomvc.domain;
 
 /**
  * Une classe permettant d'obtenir une température en Celsius ou Fahrenheit.

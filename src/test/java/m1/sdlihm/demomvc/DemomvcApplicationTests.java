@@ -1,4 +1,4 @@
-package m1.dl.demomvc;
+package m1.sdlihm.demomvc;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
